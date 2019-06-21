@@ -53,7 +53,7 @@ public class NewTestDay2 extends BaseClass {
 
 	}
 
-	@Test
+	/*@Test
 	public void verifyBrokenImage() throws IOException {
 		driver.findElement(By.linkText("Broken Images")).click();
 		List<WebElement> allImages = driver.findElements(By.tagName("img"));
@@ -88,6 +88,6 @@ public class NewTestDay2 extends BaseClass {
 		driver.findElement(By.id("file-submit")).click();
 		Assert.assertEquals(driver.findElement(By.id("uploaded-files")).getText(), "New Microsoft Word Document.docx");
 
-	}
+	}*/
 
 }
